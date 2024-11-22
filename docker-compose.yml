@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+
+  web:
+
+    image: nginx:latest
+
+    ports:
+
+      - "8080:80"
+
+    container_name: nginx-cont
+
+  db:
+
+    image: mysql:latest
+
+    container_name: mysql-cont
+
+    environment:
+
+      MYSQL_ROOT_PASSWORD: redhat
+
+      MYSQL_DATABASE: mydb
+
+      MYSQL_PASSWORD: redhat
+
+      MYSQL_USER: root
+
+    ports:
+
+      - "3306:3306"
+
