@@ -1,6 +1,6 @@
 
 <h1>Task 1</h1>
-Scenario: Deploying a Multi-Container Application with Docker Compose and Kubernetes You are tasked with deploying a multi-container application that includes a web server (Nginx) and a database (MySQL).
+<h>Scenario</h>: Deploying a Multi-Container Application with Docker Compose and Kubernetes You are tasked with deploying a multi-container application that includes a web server (Nginx) and a database (MySQL).
 Initially, you need to set it up using Docker Compose and later migrate it
 to Kubernetes.
 
