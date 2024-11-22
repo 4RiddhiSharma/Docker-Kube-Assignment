@@ -56,8 +56,8 @@ custom-page.html
 <title>LW Nginx Page</title>
 </head>
 <body>
-<h1>Hello from LW Nginx Page!</h1>
-<p>This is a LW custom page served by Nginx using Kubernetes ConfigMap.</p>
+# <h1>Hello from Nginx Page!</h1>
+<p>This is a custom page served by Nginx using Kubernetes ConfigMap.</p>
 </body>
 </html>
 
