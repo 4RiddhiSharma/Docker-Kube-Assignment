@@ -66,6 +66,7 @@ Update the Nginx Deployment
 USe the image nginx:latest
 
 Solution:
+custom-page.html , custom-page-config.yaml , nginx-deployment.yaml( updated - you need to check out commit history )
 
 <h1>Task 5</h1>
 Scenario : Creating and Using a Service Account for Access Control Create a Service Account with specific roles and permissions, and use this Service Account in a Deployment to access a Kubernetes
@@ -85,3 +86,4 @@ Use image busybox with the commands
 ["sh", "-c", "cat /etc/secrets/my-key"]
 
 Solution:
+my-service-account.yaml , role.yaml , rolebinding.yaml , my-secret.yaml
